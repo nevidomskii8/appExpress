@@ -1,0 +1,23 @@
+<h1>add </h1>
+
+<form action="/add" method="POST">
+    <div class="input-field">
+        <input id="title" name="title" type="text" class="validate" required>
+        <label for="title">Name experiences</label>
+        <span class="helper-text" data-error="enter name"></span>
+    </div>
+    
+    <div class="input-field">
+        <input id="price" name="price" type="number" class="validate" required min="1">
+        <label for="price">price experiences</label>
+        <span class="helper-text" data-error="enter true"></span>
+    </div>
+
+    <div class="input-field">
+        <input id="img" name="img" type="text" class="validate" required>
+        <label for="img">where you can see</label>
+        <span class="helper-text" data-error="enter link"></span>
+    </div>
+
+    <button class="btn btn-primary">add exp</button>
+</form>
